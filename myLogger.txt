@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-02-10T23:35:30.286856200Z</date>
+  <millis>1644536130286</millis>
+  <nanos>856200</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>com.Task3.Logs</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>My logger is working</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-02-10T23:38:55.633178500Z</date>
+  <millis>1644536335633</millis>
+  <nanos>178500</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>com.Task3.Logs</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>My logger is working</message>
+</record>
+<record>
+  <date>2022-02-10T23:38:55.653167800Z</date>
+  <millis>1644536335653</millis>
+  <nanos>167800</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>com.Task3.Logs</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>My second test</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-02-17T13:00:32.624213600Z</date>
+  <millis>1645102832624</millis>
+  <nanos>213600</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>com.Task3.Logs</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>My logger is working</message>
+</record>
+<record>
+  <date>2022-02-17T13:00:32.649199800Z</date>
+  <millis>1645102832649</millis>
+  <nanos>199800</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>com.Task3.Logs</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>My second test</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-02-17T13:01:27.148995100Z</date>
+  <millis>1645102887148</millis>
+  <nanos>995100</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>com.Task3.Logs</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>My logger is working</message>
+</record>
+<record>
+  <date>2022-02-17T13:01:27.182974900Z</date>
+  <millis>1645102887182</millis>
+  <nanos>974900</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>com.Task3.Logs</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>My second test</message>
+</record>
+</log>

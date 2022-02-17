@@ -1,19 +1,20 @@
 package com.Task3;
 
 import javax.swing.*;
-import java.awt.*;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
 public class Users extends JFrame {
+    private JPanel User;
+
     public Users (){
         setTitle("List of users");
         setSize(400,400);
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-
+// exception handling
                 try {
                     Connection connection = Mydb.yourratingdb();
                     assert connection != null;
@@ -34,10 +35,7 @@ public class Users extends JFrame {
                     }
 
                     JTable   table = new JTable(data, columnName);
-                    table.setPreferredScrollableViewportSize(new Dimension(500,50));
-                    table.setShowGrid(true);
-                    JScrollPane jScrollPane = new JScrollPane(table);
-                    add(jScrollPane);
+                    add(new JScrollPane(table));
                     table.setFillsViewportHeight(true);
                 }
                 catch (Exception e1){
